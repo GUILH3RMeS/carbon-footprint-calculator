@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>donate Page</title>
+    <style>
+        @font-face {
+    font-family: Agrandir;
+    src: url('fonts/Agrandir-Regular.otf');
+  }
+  
+  body {
+    margin: 0px;
+    font-family: Agrandir;
+    text-align: center;
+  }
+  
+  /*-----------------------*/
+  
+  @media (min-width:0px) {
+    header{
+      padding: 1rem 0rem 0rem 0rem;
+      text-align: center;
+      background-color: black;
+    }
+      #logotipo_header{
+        max-width: 15rem;
+    }
+    nav,ul{
+      padding: 0px;
+      display: inline-flex;
+      list-style-type: none;
+      color: #fff;
+      align-items: center;
+      margin:0px;
+    }
+    li{
+      font-size: 6pt;
+      margin: 2px;
+      white-space: nowrap;
+    }
+    .li{
+    color: #fff;
+    text-decoration: none;
+    }
+    .li:hover{
+        color: #F48300;
+    }
+    #donate {
+    background-color: #F48300;
+    color: black;
+    border-radius: 2px;
+    padding: 0.2rem 1rem;
+    font-weight: bolder;
+    }
+    .flex{
+        display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    }
+    #donate {
+    background-color: #F48300;
+    color: black;
+    border-radius: 2px;
+    padding: 0.2rem 1rem;
+    }
+    img#body_logo{
+        width: 200px;
+    }
+    #main{
+        margin: auto;
+        text-align: start;
+    }
+    .container{
+        text-align: center;
+        background-color: black;
+        color: #fff;
+        white-space: nowrap;
+        width: 18rem;
+        height: 10rem;
+        margin: 0.2rem 0.25rem;
+        font-size: 9pt;
+    }
+    #green{
+        background-color: #30601a;
+    }
+    .display{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    #icons{
+        margin: 0rem 0rem 0rem 0.5rem;
+    }
+    .icon{
+        width: 1.2rem;
+        margin: 0.2rem;
+    }
+    .icons_border{
+        margin: auto;
+        border-bottom: 2px solid gray;
+        width: 20%;
+    }
+    .donate_button{
+        background-color: #F48300;
+        font-weight: bold;
+        font-size: 14pt;
+        margin: 0.5rem 0rem;
+        padding: 0.1rem 3rem;
+    }
+    #popular{
+        float: right;
+        background-color: #1d9396;
+        color: #fff;
+        height: 1rem;
+        width: 60%;
+        font-weight: bold;
+    }
+    .top_container{
+        background-color: #fff;
+        height: 1rem;
+    }
+    .price{
+        font-size: 16pt;
+        font-weight: bold;
+    }
+    p{
+        margin: 8px;
+    }
+    h1{
+        margin-left: 0.3rem;
+    }
+    .iconseo{
+        width: 5rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+    #description{
+        text-align: start;
+        margin: 3rem;
+    }
+    h3{
+        width: 100%;
+        margin: 0px;
+    }
+    .p_description{
+        margin-bottom: 2rem;
+    }
+    .iconseo {
+    width: 5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+#donatenow{
+        color: white;
+        background-color: black;
+        font-size: 20pt;
+        text-align: center;
+        font-weight: bold;
+        width: 15rem;
+        padding: 0.3rem;
+        margin: auto;
+    }
+}
+ 
+  /*-----------------------*/
+  
+  @media (min-width:380px) {
+    #logotipo_header{
+        max-width: 15rem;
+    }
+    li{
+      font-size: 10px;
+      margin: 2px;
+      white-space: nowrap;
+    }
+    #donate {
+    background-color: #F48300;
+    color: black;
+    border-radius: 2px;
+    padding: 0.2rem 1rem;
+    font-weight: bolder;
+    }
+    img#body_logo{
+        width: 200px;
+    }
+    #main{
+        margin: auto;
+        text-align: start;
+    }
+    .flex{
+        display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 23rem;
+    }
+    .container{
+        text-align: center;
+        background-color: black;
+        color: #fff;
+        white-space: nowrap;
+        width: 90%;
+        height: 11rem;
+        margin: 0.2rem 0.25rem;
+        font-size: 12pt;
+        
+    }
+    #green{
+        background-color: #30601a;
+    }
+    .display{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: start;
+        align-items: flex-end;
+    }
+    #icons{
+        margin: 0rem 0rem 0rem 2%;
+    }
+    .icon{
+        width: 1rem;
+        margin: 0.2rem;
+    }
+    .icons_border{
+        margin: auto;
+        border-bottom: 2px solid gray;
+        width: 20%;
+    }
+    .donate_button{
+        background-color: #F48300;
+        font-weight: bold;
+        font-size: 14pt;
+        margin: 0.5rem 0rem;
+        padding: 0.1rem 3rem;
+    }
+    #popular{
+        float: right;
+        background-color: #1d9396;
+        color: #fff;
+        height: 1rem;
+        width: 60%;
+        font-weight: bold;
+    }
+    .top_container{
+        background-color: #fff;
+        height: 1rem;
+    }
+    .price{
+        font-size: 16pt;
+        font-weight: bold;
+    }
+    p{
+        margin: 8px;
+    }
+    #description{
+        text-align: start;
+        margin: 3rem;
+    }
+    h3{
+        width: 100%;
+        margin: 0px;
+    }
+    .p_description{
+        margin-bottom: 2rem;
+    }
+    .month{
+        margin: 8px 1rem;
+    }
+}
+ 
+  /*-----------------------*/
+  
+  @media (min-width:480px) {
+    #logotipo_header{
+        max-width: 18rem;
+        
+    }
+    main{
+        margin: 0.5rem;
+    }
+    li{
+      font-size: 12px;
+      margin: 3px;
+    }
+    #donate {
+    background-color: #F48300;
+    color: black;
+    border-radius: 2px;
+    padding: 0.2rem 1.8rem;
+    font-weight: bolder;
+    }
+    .flex{
+        display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 28rem;
+    }
+    h1{
+        font-size: 21pt;
+    }
+    .month{
+    margin: 0rem 2.0rem;
+}
+.display{
+    align-items:center;
+}
+.icon{
+    width: 1.2rem;
+        margin: 0.2rem;
+}
+}  
+  /*-----------------------*/
+  
+  @media (min-width:600px) {
+    #logotipo_header{
+        max-width: 18rem;
+    }
+    li{
+      font-size: 15.5px;
+      margin: 4px;
+    }
+    #donate{
+    background-color: #F48300;
+    color: black;
+    border-radius: 2px;
+    padding: 0.2rem 2rem;
+    font-weight: bolder;
+    }
+    #donatenow{
+        color: white;
+        background-color: black;
+        font-size: 20pt;
+        text-align: center;
+        font-weight: bold;
+        width: 15rem;
+        padding: 0.3rem;
+        margin: auto;
+    }
+    .flex{
+        display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    }
+    img#body_logo{
+        width: 320px;
+    }
+    #main{
+        margin: auto;
+        text-align: start;
+        width: 90%;
+    }
+    .container{
+        text-align: center;
+        background-color: black;
+        color: #fff;
+        white-space: nowrap;
+        width: 32rem;
+        height: 13rem;
+        margin: 0.2rem 0.25rem;
+        font-size: 12pt;
+    }
+    .display{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: start;
+    }
+    #icons{
+        margin: 0rem 4rem 0rem 1.5rem;
+    }
+    .icon{
+        width: 20px;
+        margin: 0.2rem;
+    }
+    .icons_border{
+        margin: auto;
+        border-bottom: 2px solid gray;
+        width: 20%;
+    }
+    .donate_button{
+        background-color: #F48300;
+        font-weight: bold;
+        font-size: 14pt;
+        margin: 1rem 0rem;
+        padding: 0.3rem 3rem;
+    }
+    #popular{
+        float: right;
+        background-color: #1d9396;
+        color: #fff;
+        height: 1rem;
+        width: 60%;
+        font-weight: bold;
+    }
+    .top_container{
+        background-color: #fff;
+        height: 1rem;
+    }
+    .price{
+        font-size: 20pt;
+        font-weight: bold;
+    }
+    p{
+        margin: 8px;
+    }
+    .iconseo{
+        float: left;
+        width: 5rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+    #description{
+        text-align: start;
+        margin: 3rem;
+    }
+    h3{
+        width: 70%;
+        margin: 0px;
+    }
+    .p_description{
+        margin-bottom: 2rem;
+    }
+    .month{
+        margin: 8px;
+    }
+}
+ 
+  /*-----------------------*/
+  
+  @media (min-width:801px) {
+    #logotipo_header{
+        max-width: 18rem;
+    }
+    li{
+      font-size: 14pt;
+      margin: 8px;
+    }
+    #donate {
+    background-color: #F48300;
+    color: black;
+    border-radius: 2px;
+    padding: 0.2rem 2rem;
+    }
+    .flex{
+        display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    }
+    
+    img#body_logo{
+        width: 320px;
+    }
+    #main{
+        margin: auto;
+        text-align: start;
+        width: 80%;
+    }
+    .container{
+        text-align: center;
+        background-color: black;
+        color: #fff;
+        white-space: nowrap;
+        width: 250px;
+        height: 265px;
+        margin: 0rem 0.25rem;
+        font-size: 10pt;
+    }
+    .icon{
+        width: 25px;
+        margin: 0.2rem;
+    }
+    #icons{
+        margin: auto;
+    }
+    .icons_border{
+        margin: auto;
+        border-bottom: 2px solid gray;
+        width: 48%;
+    }
+    .donate_button{
+        background-color: #F48300;
+        font-weight: bold;
+        font-size: 14pt;
+        margin: 1rem 0.3rem;
+        padding: 0.3rem 3.5rem;
+    }
+    #popular{
+        margin: auto;
+        background-color: #1d9396;
+        color: #fff;
+        height: 1rem;
+        width: 60%;
+        font-weight: bold;
+        margin-right: 19%;
+    }
+    .top_container{
+        background-color: #fff;
+        height: 1rem;
+        margin-bottom: 2rem;
+    }
+    .price{
+        font-size: 24pt;
+        font-weight: bold;
+    }
+    p{
+        margin: 8px;
+    }
+    .iconseo{
+        float: left;
+        width: 5rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+    #description{
+        text-align: start;
+        margin: 3rem;
+    }
+    h3{
+        width: 70%;
+        margin: 0px;
+    }
+    .p_description{
+        margin-bottom: 2rem;
+    }
+    .display{
+        margin: auto;
+        display: block;
+    }
+
+}
+        @media (min-width:1024px) {
+    header{
+      width: 99.99%;
+      display: inline-flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    #logotipo_header{
+        max-width: 21rem;
+    }
+    li{
+      font-size: 11pt;
+      margin: 8px;
+    }
+    .flex{
+        display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    }
+    #donate {
+    background-color: #F48300;
+    color: black;
+    border-radius: 2px;
+    padding: 0.2rem 2rem;
+    }
+    img#body_logo{
+        width: 320px;
+    }
+    #main{
+        margin: auto;
+        text-align: start;
+        width: 80%;
+    }
+    .container{
+        text-align: center;
+        background-color: black;
+        color: #fff;
+        white-space: nowrap;
+        width: 250px;
+        height: 265px;
+        margin: 0rem 1rem;
+        font-size: 12pt;
+    }
+    .icon{
+        width: 30px;
+        margin: 0.2rem;
+    }
+    
+    .icons_border{
+        margin: auto;
+        border-bottom: 2px solid gray;
+        width: 48%;
+    }
+    .donate_button{
+        background-color: #F48300;
+        font-weight: bold;
+        font-size: 14pt;
+        margin: 1rem 0rem;
+        padding: 0.3rem 4rem;
+    }
+    #popular{
+        margin-right: 19%;
+        background-color: #1d9396;
+        color: #fff;
+        height: 1rem;
+        width: 60%;
+        font-weight: bold;
+    }
+    .top_container{
+        background-color: #fff;
+        height: 1rem;
+        margin-bottom: 2rem;
+    }
+    .price{
+        font-size: 24pt;
+        font-weight: bold;
+    }
+    p{
+        margin: 8px;
+    }
+    .iconseo{
+        float: left;
+        width: 5rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+    #description{
+        text-align: start;
+        margin: 3rem;
+    }
+    h3{
+        width: 70%;
+        margin: 0px;
+    }
+    .p_description{
+        margin-bottom: 2rem;
+    }
+    .display{
+        display: block;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Materiais calculadora/ pré calculadora - materiais/Header/Logotipo_Hourglass_SemFundo-02.png" alt="" srcset="" id="logotipo_header">
+        <nav>
+          <ul>
+          <a href="https://hourglassnow.com/" class="li"><li style="font-weight: bold;" id="home">Home</li></a>
+           <a href="https://hourglassnow.com/category/global-warming/" class="li"><li>Global warming</li></a>
+           <a href="https://hourglassnow.com/category/news-climate-change/" class="li"><li>NEWS</li></a>
+            <a href="https://hourglassnow.com/category/climate-change/" class="li"><li>CLIMATE CHANGE</li></a>
+           <a href="https://hourglassnow.com/about-us-hourglass/" class="li"><li>ABOUT US</li></a>
+            <a href="https://hourglassnow.com/carbon-footprint-calculator/sales.html" class="li"><li id="donate">Donate</li></a>
+        </ul>
+        </nav>
+      </header>
+      <main>
+        <img src="Materiais calculadora/ pré calculadora - materiais/body/Logotipo_Hourglass_SemFundo-05.png" alt="" srcset="" id="body_logo">
+        <p>PLANET HEALING MEMBERSHIP PROGRAM</p>
+        <div id="main">
+            <h1>You can be part of the solution</h1>
+            <p>The <b>Hourglass</b> community is fighting to <b>heal the planet</b> attacking several issues at the same time.</p>
+            <p>See below the 5 projects that we support monthly to win this war:</p>
+            <div class="flex">
+                <div class="container">
+                    <div class="top_container">
+                    </div>
+                    <p>I just wanna help</p>
+                    <p class="price">$29.90</p>
+                    <div class="display">
+                    <p class="month">/mo</p>
+                    <div id="icons">
+                        <img src="Materiais calculadora/página de venda/trees.png" alt="trees" srcset="" class="icon">
+                        <img src="Materiais calculadora/página de venda/apitherapy.png" alt="apitherapy" srcset="" class="icon">
+                        <img src="Materiais calculadora/página de venda/ocean.png" alt="ocean" srcset="" class="icon">
+                        <img src="Materiais calculadora/página de venda/maloca.png" alt="maloca" srcset="" class="icon">
+                        <img src="Materiais calculadora/página de venda/solar-energy.png" alt="solar-energy" srcset="" class="icon">
+                    </div>
+                    </div>
+                    <div class="icons_border"></div>
+                    <a href="https://buy.stripe.com/6oEg1E28AevE7YY000"><button type="submit" class="donate_button">Donate</button></a>
+                </div>
+                <div class="container">
+                    <div class="top_container">
+                    </div>
+                    <p style="font-size: 11pt;">Clean my cartoon footprint</p>
+                    <p class="price">$49.90</p>
+                    <div class="display">
+                    <p class="month">/mo</p>
+                    <div id="icons">
+                        <img src="Materiais calculadora/página de venda/trees.png" alt="trees" srcset="" class="icon">
+                        <img src="Materiais calculadora/página de venda/apitherapy.png" alt="apitherapy" srcset="" class="icon">
+                        <img src="Materiais calculadora/página de venda/ocean.png" alt="ocean" srcset="" class="icon">
+                        <img src="Materiais calculadora/página de venda/maloca.png" alt="maloca" srcset="" class="icon">
+                        <img src="Materiais calculadora/página de venda/solar-energy.png" alt="solar-energy" srcset="" class="icon">
+                    </div>
+                    </div>
+                    <div class="icons_border"></div>
+                    <a href="https://buy.stripe.com/dR6eXA3cEafoa7628b"><button type="submit" class="donate_button">Donate</button></a>
+                </div>
+                <div class="container" id="green">
+                    <div class="top_container">
+                        <div id="popular">Popular choice</div>
+                    </div>
+                    <p>I'm a community hero!</p>
+                    <p class="price">$89.90</p>
+                    <div class="display">
+                    <p class="month">/mo</p>
+                    <div id="icons">
+                        <img src="Materiais calculadora/página de venda/trees.png" alt="trees" srcset="" class="icon">
+                        <img src="Materiais calculadora/página de venda/apitherapy.png" alt="apitherapy" srcset="" class="icon">
+                        <img src="Materiais calculadora/página de venda/ocean.png" alt="ocean" srcset="" class="icon">
+                        <img src="Materiais calculadora/página de venda/maloca.png" alt="maloca" srcset="" class="icon">
+                        <img src="Materiais calculadora/página de venda/solar-energy.png" alt="solar-energy" srcset="" class="icon">
+                    </div>
+                    </div>
+                    <div class="icons_border"></div>
+                    <a href="https://buy.stripe.com/28odTw8wYgDM3IIaEG"><button type="submit" class="donate_button">Donate</button></a>
+                </div>
+                <div class="container">
+                    <div class="top_container">
+                    </div>
+                    <p>Let's save the world!</p>
+                    <p class="price">$99.90</p>
+                    <div class="display">
+                    <p class="month">/mo</p>
+                    <div id="icons">
+                        <img src="Materiais calculadora/página de venda/trees.png" alt="trees" srcset="" class="icon">
+                        <img src="Materiais calculadora/página de venda/apitherapy.png" alt="apitherapy" srcset="" class="icon">
+                        <img src="Materiais calculadora/página de venda/ocean.png" alt="ocean" srcset="" class="icon">
+                        <img src="Materiais calculadora/página de venda/maloca.png" alt="maloca" srcset="" class="icon">
+                        <img src="Materiais calculadora/página de venda/solar-energy.png" alt="solar-energy" srcset="" class="icon">
+                    </div>
+                    </div>
+                    <div class="icons_border"></div>
+                    <a href="https://buy.stripe.com/aEUcPs7sU9bk6UU004"><button type="submit" class="donate_button">Donate</button></a>
+                </div>
+            </div>
+        </div>
+    </main>
+<section id="description">
+        <h2>Projects we support monthly</h2>
+            <img src="Materiais calculadora/página de venda/trees.png" alt="trees" srcset="" class="iconseo">
+            <h3>Amazon Forest healing</h3>
+            <p class="p_description">We donate every month to <b>reforestation</b> of Amazon Forest, the biggest tropical forest in the world. With the contributions, the NGOs plant, protect and monitor the new trees.</p>
+            <img src="Materiais calculadora/página de venda/apitherapy.png" alt="apitherapy" srcset="" class="iconseo">
+            <h3>Preservation of endangered species</h3>
+            <p class="p_description">We're loosing, every day, animals that are fundamental to the global ecossystem. We need to proctect them from the massive extinction. Help us to support sanctuaries and <b>save animals</b>.</p>
+            <img src="Materiais calculadora/página de venda/ocean.png" alt="ocean" srcset="" class="iconseo">
+            <h3>Cleaning the oceans</h3>
+            <p class="p_description">Without marine life, there's no life on Earth. More than <b>50% of our oxygen is produced under water</b>. If we don't save the oceans, it will be impossible to save ourselves.</p>
+            <img src="Materiais calculadora/página de venda/maloca.png" alt="maloca" srcset="" class="iconseo">
+            <h3>Protect indigenous communities</h3>
+            <p class="p_description">Indigenous people are the <b>front line of forest defense around the globe</b>. They need our help to fight against companies that aim to burn our natural resources down in order to get profit.</p>
+            <img src="Materiais calculadora/página de venda/solar-energy.png" alt="solar-energy" srcset="" class="iconseo">
+            <h3>Solar energy production</h3>
+            <p class="p_description">There's no society without eletricity. <b>There's no futre without clean energy</b>. We support Remote Energy, a NGO that prepare professionals to install and develop solar energy massively.</p>
+            <img src="Materiais calculadora/Calculadora/footer logo/Logotipo_Hourglass_SemFundo-078png.png" alt="" srcset="" class="iconseo">
+            <h3>Climate change news</h3>
+            <p class="p_description">To solve a problem, we need to talk about it. The Hourglass project was created to make climate change part of the conversation and give voice to people and iniciatives that fight for planet healing.</p>
+            <img src="Materiais calculadora/página de venda/email.png" alt="email" class="iconseo">
+            <h3>What you're gonna receive?</h3>
+            <p class="p_description">On top of cleaning your carbon footprint, you're gonna also receive a monthly newsletter with the updates of the organizations you help + extra contents from Hourglass project.</p>
+                <a href="" style="text-decoration: none;"><div id="donatenow">Donate now</div></a>
+        </section>
+</body>
+</html>

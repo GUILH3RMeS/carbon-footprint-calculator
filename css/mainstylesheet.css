@@ -1,0 +1,294 @@
+@font-face {
+  font-family: Agrandir;
+  src: url('../fonts/Agrandir-Regular.otf');
+}
+
+body {
+  margin: 0px;
+  font-family: Agrandir;
+}
+  @media (min-width:0px) {
+  header{
+  padding: 1rem 0rem 0rem 0rem;
+  text-align: center;
+  background-color: black;
+}
+  #logotipo_header{
+    max-width: 15rem;
+}
+nav,ul{
+  padding: 0px;
+  display: inline-flex;
+  list-style-type: none;
+  color: #fff;
+  align-items: center;
+  margin:0px;
+}
+li{
+  font-size: 6pt;
+  margin: 2px;
+  white-space: nowrap;
+}
+.li{
+  color: #fff;
+  text-decoration: none;
+}
+.li:hover{
+  color: #F48300;
+}
+#donate {
+background-color: #F48300;
+color: black;
+border-radius: 2px;
+padding: 0.2rem 1rem;
+font-weight: bolder;
+}
+footer{
+  background-color: #2b2a2a;
+display: flex;
+justify-content: center;
+color: white;
+flex-direction: column;
+align-content: center;
+flex-wrap: wrap;
+}
+.footer_box{
+  width: 18rem;
+}
+main{
+      text-align: center;
+      margin: 2.5rem 0rem;
+    }
+    img#body_logo{
+    width: 200px;
+}
+    main p{
+      margin-bottom: 4rem;
+    }
+    .start{
+      background-color: #F48300;
+      color: black;
+      border-radius: 30px;
+      padding: 15px 70px;
+      font-size: large;
+      font-weight:bolder;
+      text-decoration: none;
+      
+    }
+#description{
+margin: 0px;
+padding: 0px;
+}
+#description h1{
+padding: 15px 25px;
+font-size: 30px;
+font-weight: bold;
+margin: 0px;
+}
+#description p{
+padding: 15px 25px;
+font-size: 20px;
+margin: 0px;
+}
+footer{
+background-color: #2b2a2a;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+color: white;
+align-content: center;
+align-items: center;
+flex-direction: column;
+}
+#logotipo_footer{
+max-width: 75px;
+}
+#email_send{
+display: flex;
+text-align: center;
+flex-wrap: wrap;
+color: black;
+align-items: center;
+margin: 0.5rem;
+padding: 0.3rem;
+}
+.email_left{
+width: 30%;
+}
+.email_right{
+width: 70%;
+}
+div#footer_text{
+text-align: center;
+}
+#left_footer{
+height: auto;
+width: 40%;
+}
+#submit{
+background-color: black; color:white; border-radius: 30px; font-size:18pt;
+}
+}
+@media (min-width:380px) {
+#logotipo_header{
+    max-width: 15rem;
+}
+li{
+  font-size: 10px;
+  margin: 2px;
+  white-space: nowrap;
+}
+#donate {
+background-color: #F48300;
+color: black;
+border-radius: 2px;
+padding: 0.2rem 1rem;
+font-weight: bolder;
+}
+img#body_logo{
+    width: 200px;
+}
+}
+@media (min-width:480px) {
+#logotipo_header{
+    max-width: 18rem;
+    
+}
+main{
+    margin: 2.5rem;
+}
+li{
+  font-size: 12px;
+  margin: 3px;
+}
+#donate {
+background-color: #F48300;
+color: black;
+border-radius: 2px;
+padding: 0.2rem 1.8rem;
+font-weight: bolder;
+}
+}
+@media (min-width:600px) {
+#logotipo_header{
+    max-width: 18rem;
+}
+li{
+  font-size: 15.5px;
+  margin: 4px;
+}
+#donate{
+background-color: #F48300;
+color: black;
+border-radius: 2px;
+padding: 0.2rem 2rem;
+font-weight: bolder;
+}
+main{
+      text-align: center;
+      margin: 2.5rem 0rem;
+    }
+    main p{
+      margin-bottom: 4rem;
+    }
+    .start{
+      background-color: #F48300;
+      color: black;
+      border-radius: 30px;
+      padding: 15px 70px;
+      font-size: large;
+      font-weight:bolder;
+      text-decoration: none;
+      
+    }
+#description{
+margin: 0px;
+padding: 0px;
+}
+#description h1{
+padding: 15px 25px;
+font-size: 30px;
+font-weight: bold;
+margin: 0px;
+}
+#description p{
+padding: 15px 25px;
+font-size: 20px;
+margin: 0px;
+}
+img#body_logo{
+    width: 400px;
+}
+footer{
+background-color: #2b2a2a;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+color: white;
+
+}
+#logotipo_footer{
+max-width: 85px;
+}
+#email_send{
+display: flex;
+text-align: center;
+flex-wrap: wrap;
+color: black;
+align-items: center;
+}
+.footer_box{
+width: 50%;
+}
+.email_left{
+width: 30%;
+}
+.email_right{
+width: 70%;
+}
+div#footer_text{
+text-align: center;
+}
+#left_footer{
+height: auto;
+width: 40%;
+}
+}
+@media (min-width:801px) {
+#logotipo_header{
+    max-width: 18rem;
+}
+li{
+  font-size: 14pt;
+  margin: 8px;
+}
+#donate {
+background-color: #F48300;
+color: black;
+border-radius: 2px;
+padding: 0.2rem 2rem;
+}
+}
+@media (min-width:1024px) {
+header{
+  width: 99.99%;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#logotipo_header{
+    max-width: 21rem;
+}
+li{
+  font-size: 11pt;
+  margin: 8px;
+}
+#donate {
+background-color: #F48300;
+color: black;
+border-radius: 2px;
+padding: 0.2rem 2rem;
+}
+}

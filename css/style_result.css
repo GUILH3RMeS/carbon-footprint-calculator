@@ -1,0 +1,511 @@
+@font-face {
+    font-family: Agrandir;
+    src: url('fonts/Agrandir-Regular.otf');
+  }
+  
+  body {
+    margin: 0px;
+    font-family: Agrandir;
+    text-align: center;
+  }
+  
+  /*-----------------------*/
+  
+  @media (min-width:0px) {
+    header{
+      padding: 1rem 0rem 0rem 0rem;
+      text-align: center;
+      background-color: black;
+    }
+      #logotipo_header{
+        max-width: 15rem;
+    }
+    nav,ul{
+      padding: 0px;
+      display: inline-flex;
+      list-style-type: none;
+      color: #fff;
+      align-items: center;
+      margin:0px;
+    }
+    li{
+      font-size: 6pt;
+      margin: 2px;
+      white-space: nowrap;
+    }
+    .li{
+      color: #fff;
+      text-decoration: none;
+    }
+    #donate {
+    background-color: #F48300;
+    color: black;
+    border-radius: 2px;
+    padding: 0.2rem 1rem;
+    font-weight: bolder;
+    }
+    #tonners_result{
+        margin: auto;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .flex{
+      display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  align-items: center;
+    }
+    .container{
+      width: 18rem;
+      margin: 5px 0px;
+    }
+    h3{
+        margin: 0px 5rem;
+        background-color: #ea9000;
+        color: #744700;
+        font-size: 12pt;
+    }
+    h1{
+        white-space: nowrap;
+        font-size: 12pt;
+        font-weight: normal;
+    }
+    h2{
+        font-size: 30pt;
+        margin: 0px;
+    }
+    p{
+        margin: 0px;
+        font-weight: bold;
+    }
+    span{
+        color: #ea9000;
+    }
+    #button_seemorebelow{
+        font-weight: bold;
+        border: none;
+        background-color: #ea9000;
+        color: #744700; 
+        height: 3rem;
+        margin: 1.5rem 0rem;
+      width: 16rem;
+      font-size: 16pt;
+    }
+    #sustain_results{
+      display: none;
+      margin: 4rem 0rem;
+    }
+    .flex_2{
+    width: 99%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    }
+    .img{
+      width: 5rem;
+    }
+    #save_planet{
+      border-radius: 30px;
+      background-color: black;
+      color: white;
+      font-size: 8pt;
+        width: 25rem;
+        padding: 0.5rem 4rem;
+        text-decoration: none;
+        font-weight: bold;
+        white-space:nowrap;
+    }
+    #sustain_title{
+      margin: 2rem 0rem;
+    }
+    .container_2{
+      flex: 50%;
+      margin: 1rem 0rem;
+    }
+    #titlelarge{
+      white-space: pre-wrap;
+      font-size: 14pt;
+    }
+  }
+  
+  /*-----------------------*/
+  
+  @media (min-width:380px) {
+      #logotipo_header{
+        max-width: 15rem;
+    }
+    li{
+      font-size: 10px;
+      margin: 2px;
+      white-space: nowrap;
+    }
+    #donate {
+    background-color: #F48300;
+    color: black;
+    border-radius: 2px;
+    padding: 0.2rem 1rem;
+    font-weight: bolder;
+    }
+    #tonners_result{
+      margin-top: 2rem;
+    }
+    .flex{
+      display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  align-items: center;
+    }
+    h3{
+        margin: 0px 5rem;
+    }
+    .container{
+      width: 18rem;
+      margin: 5px 0px;
+    }
+    p{
+        white-space: nowrap;
+    }
+    #button_seemorebelow{
+      margin: 2.95rem 0rem;
+      width: 20rem;
+    }
+  }
+  
+  /*-----------------------*/
+  
+  @media (min-width:480px) {
+      #logotipo_header{
+        max-width: 18rem;
+        
+    }
+    h3{
+        margin: 0px 42%;
+    }
+    li{
+      font-size: 12px;
+      margin: 3px;
+    }
+    #donate {
+    background-color: #F48300;
+    color: black;
+    border-radius: 2px;
+    padding: 0.2rem 1.8rem;
+    font-weight: bolder;
+    }
+    .flex{
+      display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  align-items: center;
+    }
+    .container{
+      width: 25rem;
+      margin: 5px 0px;
+    }
+    h3{
+        margin: 0px 8rem;
+    }
+    p{
+        white-space: nowrap;
+    }
+    #button_seemorebelow{
+      margin: 1.9rem 0rem;
+      width: 20rem;
+    }
+  
+  }
+  
+  /*-----------------------*/
+  
+  @media (min-width:600px) {
+    #logotipo_header{
+        max-width: 18rem;
+    }
+    li{
+      font-size: 15.5px;
+      margin: 4px;
+    }
+      .flex{
+        display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    align-items: center;
+      }
+    #donate{
+    background-color: #F48300;
+    color: black;
+    border-radius: 2px;
+    padding: 0.2rem 2rem;
+    font-weight: bolder;
+    }
+    .container{
+      width: 25rem;
+      margin: 5px 0px;
+    }
+    h3{
+        margin: 0px 8rem;
+    }
+    p{
+        white-space: nowrap;
+    }
+    #button_seemorebelow{
+      margin: 1.5rem 0rem;
+      width: 20rem;
+      font-size: 18pt;
+    }
+    #sustain_results{
+      display: none;
+      margin: 2rem 0rem;
+    }
+    .flex_2{
+    width: 99%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    }
+    .img{
+      width: 10rem;
+    }
+    #save_planet{
+      border-radius: 30px;
+      background-color: black;
+      color: white;
+      font-size: 18pt;
+        width: 25rem;
+        padding: 0.5rem 4rem;
+        text-decoration: none;
+        font-weight: bold;
+        white-space:nowrap;
+    }
+    #sustain_title{
+      margin: 1rem 0rem;
+    }
+    .container_2{
+      flex: 50%;
+      margin: 1rem 0rem;
+    }
+    #titlelarge{
+      white-space: pre-wrap;
+      font-size: 30pt;
+    }
+  }
+  
+  /*-----------------------*/
+  
+  @media (min-width:801px) {
+    #logotipo_header{
+        max-width: 21rem;
+    }
+    li{
+      font-size: 18px;
+      margin: 8px;
+    }
+    #donate {
+    background-color: #F48300;
+    color: black;
+    border-radius: 2px;
+    padding: 0.2rem 2rem;
+    }
+    #tonners_result{
+      margin-top: 2rem;
+    }
+    #sustain_results{
+      display: none;
+      margin: 3rem;
+    }
+    .flex{
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-around;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      align-content: center;
+      width: 100%;
+      margin-top: 3rem;
+    }
+    .container{
+        margin: 0px 1rem;
+        width: 14rem;
+    }
+    .container_p{
+        margin: 0px;
+    }
+    h1{
+      margin-top: 3rem;
+    }
+    h3{
+        margin: 0px 2rem;
+        font-size: 16pt;
+    }
+    h2{
+        font-size: 48pt;
+    }
+    #button_seemorebelow{
+        width: 20rem;
+        margin-top: 5rem;
+        font-size: 18pt;
+    }
+  .flex_2{
+    width: 99%;
+    display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-bottom: 1.5rem;
+  }
+  .img{
+    width: 10rem;
+  }
+  #save_planet{
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-size: 24pt;
+      width: 25rem;
+      padding: 0.5rem 4rem;
+      text-decoration: none;
+      font-weight: bold;
+  }
+  #sustain_title{
+    margin: 3rem 0rem;
+  }
+  #stylelarge{
+    margin:0rem 9rem 0rem 0rem;
+  }
+  #titlelarge{
+    margin:2rem 0rem; font-weight: bold; font-size: 24pt;
+  }
+  }
+  
+  /*-----------------------*/
+  
+  @media (min-width:1024px) {
+    header{
+      width: 99.99%;
+      display: inline-flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    #logotipo_header{
+        max-width: 21rem;
+    }
+    li{
+      font-size: 11pt;
+      margin: 8px;
+    }
+    .li{
+      color: #fff;
+      text-decoration: none;
+    }
+    .li:hover{
+      color: #F48300;
+  }
+    #donate {
+    background-color: #F48300;
+    color: black;
+    border-radius: 2px;
+    padding: 0.2rem 2rem;
+    }
+    #tonners_result{
+      display: block;
+      margin: 4rem 0rem 2rem 0rem;
+    }
+    #sustain_results{
+      display: none;
+      margin: 5rem 0rem 0rem 0rem;
+    }
+    footer img{
+      max-width: 7rem;
+    }
+    .flex{
+      width: 99%;
+      display: flex;
+      align-items: flex-end;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      align-content: center;
+      justify-content: center;
+    }
+    .container{
+      width: 30rem;
+    }
+    h3{
+        background-color: #ea9000;
+        text-align: center;
+        margin: 0rem 4rem;
+        font-size: 18pt;
+    }
+    h2{
+        font-size: 48pt;
+        font-weight: bold;
+    }
+    h1{
+        white-space: nowrap;
+        font-size: 18pt;
+        font-weight: normal;
+    }
+    p{
+        margin: 0px;
+        font-size: 18pt;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+    #button_seemorebelow{
+      font-size: 24pt;
+        width: 25rem;
+        padding: 0.5rem 4rem;
+    }
+    .flex_2{
+      width: 99%;
+      display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+    }
+    .img{
+      width: 10rem;
+    }
+    #save_planet{
+      border-radius: 30px;
+      background-color: black;
+      color: white;
+      font-size: 24pt;
+        width: 25rem;
+        padding: 0.5rem 4rem;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    #sustain_title{
+      margin: 3rem 0rem;
+    }
+    #stylelarge{
+      margin:0rem 9rem 0rem 0rem;
+    }
+    #titlelarge{
+      margin:2rem 0rem; font-weight: bold; font-size: 24pt;
+    }
+  }
